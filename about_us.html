@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="button.css">
+	<style>
+		html {
+			background-color:#d0f4fe
+		}
+		h1 {
+			color:red
+		}
+	</style>
+	<style type="text/css">
+        .top{
+			/* 设置宽度高度背景颜色 */
+			height: auto; /*高度改为自动高度*/
+			width:100%;
+			margin-left: 0;
+			background:rgb(22,7,201);
+			position: fixed; /*固定在顶部*/
+			top: 0;/*离顶部的距离为0*/
+			margin-bottom: 5px;
+		}
+		.top ul{
+			/* 清除ul标签的默认样式 */
+			width: auto;/*宽度也改为自动*/
+			list-style-type: none;
+			white-space:nowrap;
+			overflow: hidden;
+			margin-left: 5%;
+			/* margin-top: 0;          */
+			padding: 0;
+
+		}
+		.top li {
+			float:left; /* 使li内容横向浮动，即横向排列  */
+			margin-right:2%;  /* 两个li之间的距离*/
+			position: relative;
+			overflow: hidden;
+		}
+
+		.top li a{
+		   /* 设置链接内容显示的格式*/
+			display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+			color:white;
+			text-align: center;
+			padding: 3px;
+			overflow: hidden;
+			text-decoration: none; /* 去除下划线 */
+			
+		}
+		.top li a:hover{
+			/* 鼠标选中时背景变为蓝色 */
+			background-color:blue;
+		}
+		.top ul li ul{
+			/* 设置二级菜单 */
+			margin-left: -0.2px;
+			background:rgb(22,7,201);
+			position: relative;
+			display: none; /* 默认隐藏二级菜单的内容 */
+
+		}
+		.top ul li ul li{
+			/* 二级菜单li内容的显示 */
+			
+			float:none;
+			text-align: center;
+		}
+		.top ul li:hover ul{
+			/* 鼠标选中二级菜单内容时 */
+			display: block;
+		}
+       </style>
+	<title>关于此网站</title>
+</head>
+<body>
+	<div class="top">
+		<center> 
+			<ul>
+				<li><a href="PC.html">主页</a></li>
+				<li><a href="about_us.html">关于此网站</a></li>
+				<li><a href="xuexi.html">学习中心</a></li>
+				<li><a href="wenzhang.html">文章中心</a></li>
+				<li>
+					<a href="#">游戏</a>
+					<ul>
+						<li><a href="C:\Users\66\Desktop\一个小网站\tetris-game\index.html">俄罗斯方块</a></li>
+						<li><a href="pcmen.html">吃豆人</a></li>
+					</ul>
+				</li>        
+			</ul>
+		</center>      
+	 </div>
+	 <h1>
+		<br>
+		<br>
+	 </h1>
+	<hr/>
+	<p>这是作者做的一个网站，有很多功能，以后会上线。</p>
+	<p>作者的bilibili名字：爱编程的小程序员</p>
+	<p>作者只是一个小学生啦，所以动画还不会做。。。</p>
+	<p>只会写一些这种文字什么的</p>
+	<p>如果你们喜欢这个网站的话，不要忘记赞助一下哦！</p>
+	<a href='zanzhu.html' class="button button-pill button-large">传送门</a>
+	<p>该说的就是这么多了，拜拜！</p>
+	<hr/>
+</body>
+</html>
